@@ -1,0 +1,1220 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>白丝二次元|官方视频平台_原创正版高清内容社区</title>
+<meta name="description" content="白丝二次元官方网站，专注二次元原创视频与创作者内容生态，提供高清正版动漫、Cosplay、绘画与声优纪实作品，持续运营值得信赖的垂直领域视频平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232a1e4a'/%3E%3Cpath d='M20 24l12-9 12 9v18l-12 8-12-8z' fill='%23ff7ab6'/%3E%3Ccircle cx='26' cy='31' r='3' fill='%23fff'/%3E%3Ccircle cx='38' cy='31' r='3' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+--bsc-violet:#6c4bd6;
+--bsc-pink:#ff7ab6;
+--bsc-ink:#241b3c;
+--bsc-ink2:#3d3160;
+--bsc-paper:#f6f3ff;
+--bsc-card:#ffffff;
+--bsc-line:#e3dcf7;
+--bsc-muted:#6f6690;
+--bsc-amber:#ffb454;
+--bsc-mint:#39c9a5;
+--bsc-radius:18px;
+--bsc-shadow:0 10px 30px rgba(58,36,120,.10);
+--bsc-head-h:0px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:132px}
+body{
+font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+background:var(--bsc-paper);color:var(--bsc-ink);line-height:1.75;
+-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul,ol{list-style:none}
+.bsc-wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ---- sticky head ---- */
+.bsc-sticky{position:sticky;top:0;z-index:60}
+.bsc-notice{
+background:linear-gradient(90deg,#2a1e4a,#5b3fb5 55%,#a24bd6);
+color:#f3edff;font-size:13.5px;line-height:1.6;
+}
+.bsc-notice-inner{display:flex;align-items:center;gap:12px;padding:8px 22px;max-width:1180px;margin:0 auto;flex-wrap:wrap}
+.bsc-notice-tag{background:var(--bsc-pink);color:#2a1e4a;font-weight:700;border-radius:999px;padding:1px 10px;font-size:12px;letter-spacing:.5px;flex:none}
+.bsc-notice-list{display:flex;gap:22px;flex-wrap:wrap;overflow:hidden}
+.bsc-notice-list a{opacity:.94;border-bottom:1px dashed rgba(255,255,255,.35)}
+.bsc-notice-list a:hover{opacity:1;border-bottom-color:#fff}
+.bsc-header{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--bsc-line);box-shadow:0 4px 18px rgba(58,36,120,.06)}
+.bsc-head-inner{display:flex;align-items:center;gap:26px;height:68px;max-width:1180px;margin:0 auto;padding:0 22px}
+.bsc-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px;flex:none}
+.bsc-brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#6c4bd6,#ff7ab6);display:grid;place-items:center;color:#fff;font-size:16px;font-weight:900}
+.bsc-brand small{display:block;font-size:10px;font-weight:500;color:var(--bsc-muted);letter-spacing:2px}
+.bsc-nav{display:flex;gap:4px;margin-left:8px;flex-wrap:wrap}
+.bsc-nav a{padding:7px 12px;border-radius:10px;font-size:14.5px;color:var(--bsc-ink2);transition:.2s}
+.bsc-nav a:hover{background:#efe9ff;color:var(--bsc-violet)}
+.bsc-head-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.bsc-search{display:flex;align-items:center;background:#f1edff;border:1px solid var(--bsc-line);border-radius:999px;padding:5px 6px 5px 14px;gap:6px}
+.bsc-search input{border:none;background:transparent;outline:none;width:150px;font-size:14px;color:var(--bsc-ink)}
+.bsc-search input::placeholder{color:#a298c2}
+.bsc-search button{background:var(--bsc-violet);color:#fff;border-radius:999px;padding:5px 14px;font-size:13.5px;font-weight:600;transition:.2s}
+.bsc-search button:hover{background:#5937c4}
+.bsc-search-feedback{position:absolute;top:100%;right:0;margin-top:8px;background:#fff;border:1px solid var(--bsc-line);box-shadow:var(--bsc-shadow);border-radius:12px;padding:10px 14px;font-size:13px;color:var(--bsc-ink2);display:none;max-width:280px;z-index:70}
+.bsc-search-wrap{position:relative}
+.bsc-search-feedback.show{display:block}
+.bsc-burger{display:none;width:42px;height:42px;border-radius:12px;border:1px solid var(--bsc-line);background:#fff;font-size:19px;line-height:1}
+.bsc-mobile-nav{display:none;background:#fff;border-bottom:1px solid var(--bsc-line);padding:10px 22px 16px}
+.bsc-mobile-nav.open{display:block}
+.bsc-mobile-nav a{display:block;padding:10px 6px;border-bottom:1px dashed var(--bsc-line);font-size:15px;color:var(--bsc-ink2)}
+.bsc-mobile-nav a:last-child{border-bottom:none}
+
+/* ---- hero ---- */
+.bsc-hero{padding:52px 0 46px;background:
+radial-gradient(900px 420px at 82% -8%,rgba(255,122,182,.22),transparent 62%),
+radial-gradient(700px 380px at 6% 110%,rgba(108,75,214,.16),transparent 60%);}
+.bsc-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:46px;align-items:center}
+.bsc-hero-kicker{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--bsc-line);color:var(--bsc-violet);border-radius:999px;padding:5px 14px;font-size:13px;font-weight:600;letter-spacing:.5px}
+.bsc-hero h1{font-size:clamp(46px,7vw,76px);line-height:1.06;letter-spacing:-1px;margin:18px 0 6px;font-weight:900}
+.bsc-hero h1 em{font-style:normal;background:linear-gradient(100deg,#6c4bd6 10%,#ff7ab6 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.bsc-hero-sub{font-size:17px;color:var(--bsc-ink2);max-width:520px}
+.bsc-hero-desc{margin-top:16px;color:var(--bsc-muted);font-size:15px;max-width:560px}
+.bsc-hero-actions{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.bsc-btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 24px;font-size:15px;font-weight:700;transition:.22s;border:1px solid transparent}
+.bsc-btn-primary{background:linear-gradient(120deg,#6c4bd6,#a24bd6 60%,#ff7ab6);color:#fff;box-shadow:0 8px 22px rgba(108,75,214,.32)}
+.bsc-btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(108,75,214,.4)}
+.bsc-btn-ghost{background:#fff;border-color:var(--bsc-line);color:var(--bsc-ink2)}
+.bsc-btn-ghost:hover{border-color:var(--bsc-violet);color:var(--bsc-violet)}
+.bsc-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:34px;max-width:520px}
+.bsc-stat{background:#fff;border:1px solid var(--bsc-line);border-radius:14px;padding:14px 14px 12px}
+.bsc-stat b{display:block;font-size:24px;font-weight:900;letter-spacing:-.5px;color:var(--bsc-violet)}
+.bsc-stat span{font-size:12.5px;color:var(--bsc-muted)}
+.bsc-hero-visual{position:relative}
+.bsc-hero-visual .bsc-hero-frame{border-radius:26px;overflow:hidden;border:1px solid #fff;box-shadow:0 24px 60px rgba(58,36,120,.22);aspect-ratio:4/3;background:#241b3c}
+.bsc-hero-frame img{width:100%;height:100%;object-fit:cover}
+.bsc-hero-badge{position:absolute;left:-14px;bottom:22px;background:#fff;border-radius:14px;padding:10px 16px;box-shadow:var(--bsc-shadow);font-size:13px;display:flex;align-items:center;gap:9px;border:1px solid var(--bsc-line)}
+.bsc-hero-badge i{width:9px;height:9px;border-radius:50%;background:var(--bsc-mint);display:inline-block}
+.bsc-hero-badge strong{color:var(--bsc-violet)}
+
+/* ---- section common ---- */
+.bsc-section{padding:56px 0}
+.bsc-section-head{display:flex;align-items:flex-end;gap:18px;margin-bottom:28px;flex-wrap:wrap;
+border-bottom:1px solid var(--bsc-line);padding-bottom:16px}
+.bsc-section-head h2{font-size:clamp(26px,3.4vw,34px);line-height:1.2;letter-spacing:-.5px;font-weight:900}
+.bsc-section-head h2 span{color:var(--bsc-pink)}
+.bsc-section-head p{color:var(--bsc-muted);font-size:14.5px;margin-left:auto;max-width:430px}
+.bsc-eyebrow{display:inline-block;font-size:12px;font-weight:800;letter-spacing:2.5px;color:var(--bsc-violet);text-transform:uppercase;margin-bottom:8px}
+
+/* ---- intro ---- */
+.bsc-intro-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:34px;align-items:start}
+.bsc-intro-card{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);padding:30px 30px 26px;box-shadow:var(--bsc-shadow)}
+.bsc-intro-card p{color:var(--bsc-ink2);font-size:15.5px}
+.bsc-intro-card p+p{margin-top:14px}
+.bsc-intro-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.bsc-tag{background:#f1edff;color:var(--bsc-violet);border-radius:999px;padding:3px 12px;font-size:12.5px;font-weight:600}
+.bsc-intro-side{display:grid;gap:14px}
+.bsc-side-card{background:linear-gradient(150deg,#2a1e4a,#4b2f8f);color:#efe9ff;border-radius:var(--bsc-radius);padding:24px 24px 20px;position:relative;overflow:hidden}
+.bsc-side-card::after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(255,122,182,.5),transparent 70%);right:-60px;top:-60px}
+.bsc-side-card h3{font-size:16px;margin-bottom:10px;color:#fff}
+.bsc-side-card ul{display:grid;gap:9px;font-size:13.5px;position:relative;z-index:1}
+.bsc-side-card li{display:flex;gap:9px;align-items:flex-start}
+.bsc-side-card li::before{content:"◆";color:var(--bsc-pink);font-size:10px;line-height:1.9;flex:none}
+.bsc-side-light{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);padding:22px 24px}
+.bsc-side-light h3{font-size:15.5px;margin-bottom:12px}
+.bsc-mini-log{display:grid;gap:10px;font-size:13.5px;color:var(--bsc-ink2)}
+.bsc-mini-log li{display:flex;gap:10px}
+.bsc-mini-log time{color:var(--bsc-muted);flex:none;font-variant-numeric:tabular-nums}
+
+/* ---- focus feature ---- */
+.bsc-focus-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:26px}
+.bsc-focus-main{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);overflow:hidden;box-shadow:var(--bsc-shadow);display:flex;flex-direction:column}
+.bsc-focus-cover{position:relative;aspect-ratio:16/9;background:#241b3c;overflow:hidden}
+.bsc-focus-cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.bsc-focus-main:hover .bsc-focus-cover img{transform:scale(1.04)}
+.bsc-play{position:absolute;inset:0;display:grid;place-items:center}
+.bsc-play i{width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;font-size:22px;color:var(--bsc-violet);box-shadow:0 8px 24px rgba(0,0,0,.3);font-style:normal;padding-left:4px}
+.bsc-focus-body{padding:22px 26px 24px;display:flex;flex-direction:column;gap:12px;flex:1}
+.bsc-focus-body h3{font-size:22px;line-height:1.35;letter-spacing:-.3px}
+.bsc-focus-body p{font-size:14.5px;color:var(--bsc-muted)}
+.bsc-meta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--bsc-muted)}
+.bsc-meta .bsc-author-mini{display:inline-flex;align-items:center;gap:7px;color:var(--bsc-violet);font-weight:600}
+.bsc-avatar-xs{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;color:#fff;flex:none}
+.bsc-focus-list{display:grid;gap:14px;align-content:start}
+.bsc-focus-item{background:#fff;border:1px solid var(--bsc-line);border-radius:14px;padding:16px 18px;display:flex;gap:14px;transition:.22s}
+.bsc-focus-item:hover{border-color:#cfc0f5;transform:translateX(3px);box-shadow:var(--bsc-shadow)}
+.bsc-focus-item .bsc-focus-num{font-size:22px;font-weight:900;color:#e2d8ff;line-height:1;flex:none;width:34px}
+.bsc-focus-item h4{font-size:15.5px;margin-bottom:5px;line-height:1.45}
+.bsc-focus-item p{font-size:13px;color:var(--bsc-muted)}
+
+/* ---- video stream list ---- */
+.bsc-video-layout{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:26px;align-items:start}
+.bsc-video-hero{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);overflow:hidden;box-shadow:var(--bsc-shadow)}
+.bsc-video-hero .bsc-vh-cover{aspect-ratio:16/10;position:relative;background:#241b3c;overflow:hidden}
+.bsc-video-hero .bsc-vh-cover img{width:100%;height:100%;object-fit:cover}
+.bsc-vh-body{padding:20px 22px 22px}
+.bsc-vh-body h3{font-size:19px;line-height:1.4;margin-bottom:8px}
+.bsc-vh-body p{font-size:14px;color:var(--bsc-muted)}
+.bsc-chip-row{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 0}
+.bsc-chip{font-size:12px;padding:2px 10px;border-radius:999px;background:#f1edff;color:var(--bsc-violet);font-weight:600}
+.bsc-chip.bsc-chip-pink{background:#ffeaf3;color:#c93f80}
+.bsc-chip.bsc-chip-mint{background:#e3faf4;color:#157f66}
+.bsc-video-list{display:grid;gap:12px}
+.bsc-video-row{background:#fff;border:1px solid var(--bsc-line);border-radius:14px;padding:16px 18px;display:grid;gap:8px;transition:.2s}
+.bsc-video-row:hover{border-color:#cfc0f5;box-shadow:var(--bsc-shadow)}
+.bsc-video-row h4{font-size:15.5px;line-height:1.45}
+.bsc-video-row p{font-size:13px;color:var(--bsc-muted)}
+.bsc-row-foot{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--bsc-muted);margin-top:2px}
+.bsc-row-actions{display:flex;gap:8px;margin-left:auto;flex-wrap:wrap}
+.bsc-act{border:1px solid var(--bsc-line);background:#fbf9ff;border-radius:999px;padding:4px 12px;font-size:12.5px;color:var(--bsc-ink2);transition:.18s;display:inline-flex;align-items:center;gap:5px}
+.bsc-act:hover{border-color:var(--bsc-violet);color:var(--bsc-violet)}
+.bsc-act.on{background:#ffeaf3;border-color:#ffb8d6;color:#c93f80;font-weight:700}
+
+/* ---- topics ---- */
+.bsc-topic-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.bsc-topic{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);overflow:hidden;display:flex;flex-direction:column;transition:.24s}
+.bsc-topic:hover{transform:translateY(-4px);box-shadow:var(--bsc-shadow)}
+.bsc-topic-cover{aspect-ratio:16/9;overflow:hidden;background:#241b3c}
+.bsc-topic-cover img{width:100%;height:100%;object-fit:cover}
+.bsc-topic-body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.bsc-topic-body h3{font-size:18px;line-height:1.4}
+.bsc-topic-body>p{font-size:13.5px;color:var(--bsc-muted)}
+.bsc-topic-status{font-size:12px;font-weight:700;color:var(--bsc-mint);display:inline-flex;align-items:center;gap:6px}
+.bsc-topic-status i{width:7px;height:7px;border-radius:50%;background:var(--bsc-mint);display:inline-block}
+.bsc-topic-list{display:grid;gap:6px;font-size:13px;color:var(--bsc-ink2);margin-top:2px}
+.bsc-topic-list li{padding-left:14px;position:relative}
+.bsc-topic-list li::before{content:"›";position:absolute;left:0;color:var(--bsc-pink);font-weight:800}
+
+/* ---- creators ---- */
+.bsc-creators{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:18px}
+.bsc-author-card{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);padding:22px 22px 20px;display:flex;flex-direction:column;gap:12px;transition:.24s}
+.bsc-author-card:hover{transform:translateY(-3px);box-shadow:var(--bsc-shadow);border-color:#d6c8f8}
+.bsc-author-top{display:flex;align-items:center;gap:12px}
+.bsc-avatar{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;color:#fff;font-weight:900;font-size:19px;flex:none}
+.bsc-author-top h3{font-size:16.5px}
+.bsc-author-top span{font-size:12.5px;color:var(--bsc-muted)}
+.bsc-author-bio{font-size:13.5px;color:var(--bsc-ink2)}
+.bsc-author-foot{display:flex;gap:16px;font-size:12.5px;color:var(--bsc-muted);margin-top:auto;align-items:center;flex-wrap:wrap}
+.bsc-author-foot b{color:var(--bsc-violet)}
+.bsc-author-more{margin-left:auto;font-size:12.5px;color:var(--bsc-pink);font-weight:700}
+
+/* ---- analysis article ---- */
+.bsc-article{background:#fff;border:1px solid var(--bsc-line);border-radius:calc(var(--bsc-radius) + 6px);padding:38px 40px;box-shadow:var(--bsc-shadow)}
+.bsc-article h2{font-size:clamp(24px,3vw,30px);line-height:1.3;margin-bottom:8px;letter-spacing:-.4px}
+.bsc-article .bsc-article-lead{color:var(--bsc-muted);font-size:15px;margin-bottom:22px}
+.bsc-article h3{font-size:18px;margin:26px 0 10px;padding-left:12px;border-left:4px solid var(--bsc-pink);line-height:1.4}
+.bsc-article p{font-size:15px;color:var(--bsc-ink2);margin-bottom:12px}
+.bsc-article p strong{color:var(--bsc-violet)}
+.bsc-inline-figure{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin:20px 0 6px}
+.bsc-inline-figure figure{border:1px solid var(--bsc-line);border-radius:14px;overflow:hidden;background:#faf8ff}
+.bsc-inline-figure img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.bsc-inline-figure figcaption{font-size:12.5px;color:var(--bsc-muted);padding:9px 12px}
+.bsc-quote{border-left:4px solid var(--bsc-violet);background:#f7f4ff;border-radius:0 12px 12px 0;padding:14px 18px;font-size:14.5px;color:var(--bsc-ink2);margin:16px 0}
+
+/* ---- ranking / evaluation ---- */
+.bsc-rank-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:26px;align-items:start}
+.bsc-rank-box{background:#fff;border:1px solid var(--bsc-line);border-radius:var(--bsc-radius);padding:24px 24px 18px}
+.bsc-rank-box h3{font-size:17px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.bsc-rank-list{display:grid;gap:4px}
+.bsc-rank-item{display:flex;align-items:center;gap:12px;padding:9px 6px;border-radius:10px;font-size:14px;transition:.18s}
+.bsc-rank-item:hover{background:#f7f4ff}
+.bsc-rank-item .bsc-rk{width:24px;font-weight:900;color:#c9bcf0;flex:none;font-variant-numeric:tabular-nums}
+.bsc-rank-item:nth-child(1) .bsc-rk{color:#ff7ab6}
+.bsc-rank-item:nth-child(2) .bsc-rk{color:#a24bd6}
+.bsc-rank-item:nth-child(3) .bsc-rk{color:#6c4bd6}
+.bsc-rank-item .bsc-rk-title{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bsc-rank-item .bsc-rk-num{font-size:12.5px;color:var(--bsc-muted);flex:none}
+.bsc-review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px}
+.bsc-review{background:linear-gradient(160deg,#fff,#faf7ff);border:1px solid var(--bsc-line);border-radius:16px;padding:18px 20px}
+.bsc-review-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.bsc-review-top h4{font-size:14.5px}
+.bsc-review-top span{font-size:12px;color:var(--bsc-muted);display:block}
+.bsc-stars{color:var(--bsc-amber);font-size:13px;letter-spacing:1px;margin-left:auto;flex:none}
+.bsc-review p{font-size:13.5px;color:var(--bsc-ink2)}
+
+/* ---- FAQ ---- */
+.bsc-faq{display:grid;gap:10px;max-width:900px}
+.bsc-faq details{background:#fff;border:1px solid var(--bsc-line);border-radius:13px;padding:0 18px;transition:.2s}
+.bsc-faq details[open]{border-color:#d6c8f8;box-shadow:var(--bsc-shadow)}
+.bsc-faq summary{cursor:pointer;padding:15px 0;font-size:15px;font-weight:700;list-style:none;display:flex;align-items:center;gap:10px}
+.bsc-faq summary::-webkit-details-marker{display:none}
+.bsc-faq summary::before{content:"+";color:var(--bsc-pink);font-weight:900;font-size:18px;width:18px;flex:none;transition:.2s}
+.bsc-faq details[open] summary::before{content:"–"}
+.bsc-faq p{font-size:14px;color:var(--bsc-ink2);padding:0 0 16px 28px}
+
+/* ---- partners & cta ---- */
+.bsc-partner-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:14px}
+.bsc-partner{background:#fff;border:1px dashed #d6c8f8;border-radius:14px;min-height:74px;display:grid;place-items:center;text-align:center;padding:12px;font-weight:800;color:var(--bsc-ink2);font-size:14px;letter-spacing:.5px}
+.bsc-partner small{display:block;font-weight:500;font-size:11.5px;color:var(--bsc-muted);letter-spacing:0}
+.bsc-cta{margin-top:52px;background:linear-gradient(115deg,#241b3c,#4b2f8f 58%,#a24bd6);border-radius:26px;padding:44px 42px;color:#fff;display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.bsc-cta h2{font-size:clamp(24px,3vw,32px);line-height:1.25;letter-spacing:-.5px}
+.bsc-cta p{font-size:14.5px;color:#ded4ff;margin-top:8px;max-width:560px}
+.bsc-cta .bsc-cta-actions{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
+.bsc-cta .bsc-btn-ghost{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.4);color:#fff}
+.bsc-cta .bsc-btn-ghost:hover{background:rgba(255,255,255,.22);color:#fff}
+
+/* ---- footer ---- */
+.bsc-footer{background:#1d1631;color:#cfc6e8;margin-top:64px;padding:50px 0 0}
+.bsc-footer-grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:30px}
+.bsc-footer h3{color:#fff;font-size:15px;margin-bottom:12px;letter-spacing:.5px}
+.bsc-footer p,.bsc-footer li{font-size:13.5px;line-height:1.9}
+.bsc-footer ul{display:grid;gap:2px}
+.bsc-footer a:hover{color:var(--bsc-pink)}
+.bsc-footer-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:18px;margin-bottom:12px}
+.bsc-footer-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:38px;padding:18px 0 22px;font-size:12.5px;color:#9d93bb;display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
+
+/* ---- toast / modal ---- */
+.bsc-toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:#241b3c;color:#fff;padding:11px 22px;border-radius:999px;font-size:14px;box-shadow:0 12px 30px rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:.28s;z-index:200}
+.bsc-toast.show{opacity:1;transform:translate(-50%,0)}
+.bsc-modal-mask{position:fixed;inset:0;background:rgba(24,16,45,.55);backdrop-filter:blur(3px);display:none;place-items:center;padding:20px;z-index:150}
+.bsc-modal-mask.show{display:grid}
+.bsc-modal{background:#fff;border-radius:20px;max-width:520px;width:100%;padding:28px 28px 24px;box-shadow:0 30px 70px rgba(0,0,0,.3);max-height:86vh;overflow:auto}
+.bsc-modal h3{font-size:20px;margin-bottom:6px;letter-spacing:-.3px}
+.bsc-modal .bsc-modal-sub{font-size:13.5px;color:var(--bsc-muted);margin-bottom:18px}
+.bsc-modal textarea,.bsc-modal input{width:100%;border:1px solid var(--bsc-line);border-radius:12px;padding:11px 14px;font-size:14px;font-family:inherit;outline:none;margin-bottom:12px;background:#fbf9ff;color:var(--bsc-ink);resize:vertical}
+.bsc-modal textarea:focus,.bsc-modal input:focus{border-color:var(--bsc-violet)}
+.bsc-modal-foot{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+.bsc-share-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}
+.bsc-share-row button{border:1px solid var(--bsc-line);border-radius:12px;padding:14px 6px;font-size:13.5px;font-weight:700;color:var(--bsc-ink2);background:#fbf9ff;transition:.2s}
+.bsc-share-row button:hover{border-color:var(--bsc-violet);color:var(--bsc-violet)}
+.bsc-author-modal-avatar{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;color:#fff;font-weight:900;font-size:24px;margin-bottom:14px}
+
+/* ---- back top ---- */
+.bsc-top{position:fixed;right:22px;bottom:26px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#6c4bd6,#ff7ab6);color:#fff;font-size:19px;box-shadow:0 10px 24px rgba(108,75,214,.4);display:grid;place-items:center;opacity:0;pointer-events:none;transition:.25s;z-index:120}
+.bsc-top.show{opacity:1;pointer-events:auto}
+.bsc-top:hover{transform:translateY(-3px)}
+
+/* ---- responsive ---- */
+@media (max-width:1000px){
+.bsc-hero-grid,.bsc-intro-grid,.bsc-focus-grid,.bsc-video-layout,.bsc-rank-grid{grid-template-columns:minmax(0,1fr)}
+.bsc-hero{padding-top:38px}
+.bsc-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bsc-cta{padding:34px 26px}
+.bsc-cta .bsc-cta-actions{margin-left:0}
+}
+@media (max-width:860px){
+.bsc-nav,.bsc-search-wrap{display:none}
+.bsc-burger{display:grid;place-items:center}
+.bsc-head-inner{gap:12px}
+.bsc-inline-figure{grid-template-columns:minmax(0,1fr)}
+.bsc-article{padding:26px 20px}
+}
+@media (max-width:600px){
+.bsc-hero-stats{grid-template-columns:minmax(0,1fr)}
+.bsc-notice-inner{padding:8px 16px}
+.bsc-notice-list{gap:14px;font-size:12.5px}
+.bsc-wrap{padding:0 16px}
+.bsc-section{padding:40px 0}
+.bsc-section-head p{margin-left:0}
+.bsc-footer-grid{grid-template-columns:minmax(0,1fr)}
+.bsc-hero h1{font-size:44px}
+.bsc-share-row{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+*{transition:none !important;animation:none !important}
+html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- S1 notice + header sticky -->
+<div class="bsc-sticky">
+  <div class="bsc-notice">
+    <div class="bsc-notice-inner">
+      <span class="bsc-notice-tag">官方发布</span>
+      <div class="bsc-notice-list">
+        <a href="#bsc-videos">新增：冬季番《星织少女》第 8 话正片上架</a>
+        <a href="#bsc-topics">企划投票：2027 年度原创动画主题征集开启</a>
+        <a href="#bsc-creators">BSC 创作挑战赛报名通道已开放</a>
+      </div>
+    </div>
+  </div>
+  <header class="bsc-header">
+    <div class="bsc-head-inner">
+      <a class="bsc-brand" href="#bsc-top">
+        <span class="bsc-brand-mark">白</span>
+        <span>白丝二次元<small>WHITE SILK ANIME</small></span>
+      </a>
+      <nav class="bsc-nav" aria-label="主导航">
+        <a href="#bsc-intro">品牌介绍</a>
+        <a href="#bsc-videos">视频内容</a>
+        <a href="#bsc-topics">专题企划</a>
+        <a href="#bsc-creators">创作者</a>
+        <a href="#bsc-insight">关键词解析</a>
+        <a href="#bsc-rank">榜单评价</a>
+        <a href="#bsc-faq">帮助</a>
+      </nav>
+      <div class="bsc-head-tools">
+        <div class="bsc-search-wrap">
+          <div class="bsc-search">
+            <input id="bsc-search-input" type="search" placeholder="搜索作品、创作者、专题…" aria-label="站内搜索">
+            <button id="bsc-search-btn" type="button">搜索</button>
+          </div>
+          <div class="bsc-search-feedback" id="bsc-search-feedback" role="status"></div>
+        </div>
+        <button class="bsc-burger" id="bsc-burger" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div class="bsc-mobile-nav" id="bsc-mobile-nav">
+      <a href="#bsc-intro">品牌介绍</a>
+      <a href="#bsc-videos">视频内容</a>
+      <a href="#bsc-topics">专题企划</a>
+      <a href="#bsc-creators">创作者</a>
+      <a href="#bsc-insight">关键词解析</a>
+      <a href="#bsc-rank">榜单评价</a>
+      <a href="#bsc-dynamics">企业动态</a>
+      <a href="#bsc-faq">帮助中心</a>
+    </div>
+  </header>
+</div>
+
+<!-- S2 hero -->
+<section class="bsc-hero" id="bsc-top">
+  <div class="bsc-wrap">
+    <div class="bsc-hero-grid">
+      <div>
+        <span class="bsc-hero-kicker">官方网站 · 二次元视频内容平台</span>
+        <h1><em>白丝二次元</em></h1>
+        <p class="bsc-hero-sub">用高清正版影像，连接动漫爱好者与原创创作者。</p>
+        <p class="bsc-hero-desc">白丝二次元是一个深耕二次元垂直领域的视频内容社区。我们坚持原创、正版、高清的内容标准，围绕番剧、Cosplay、绘画教程、声优访谈与同人创作展开持续运营，让每一次点击都成为一次真实的相遇。</p>
+        <div class="bsc-hero-actions">
+          <a class="bsc-btn bsc-btn-primary" href="#bsc-videos">观看最新内容 →</a>
+          <a class="bsc-btn bsc-btn-ghost" href="#bsc-creators">认识创作者</a>
+          <a class="bsc-btn bsc-btn-ghost" href="#" data-bsc-modal="contribute">投稿入口</a>
+        </div>
+        <div class="bsc-hero-stats">
+          <div class="bsc-stat"><b>12,860+</b><span>原创视频作品</span></div>
+          <div class="bsc-stat"><b>386 万</b><span>社区注册用户</span></div>
+          <div class="bsc-stat"><b>4.9 / 5</b><span>用户口碑评分</span></div>
+        </div>
+      </div>
+      <div class="bsc-hero-visual">
+        <div class="bsc-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23261a45'/%3E%3Cstop offset='0.55' stop-color='%235b3fb5'/%3E%3Cstop offset='1' stop-color='%23ff7ab6'/%3E%3C/linearGradient%3E%3CradialGradient id='halo' cx='0.5' cy='0.42' r='0.5'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='0.85'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23bg)'/%3E%3Ccircle cx='400' cy='250' r='210' fill='url(%23halo)' opacity='0.5'/%3E%3Cg opacity='0.9'%3E%3Ccircle cx='150' cy='120' r='3' fill='%23fff'/%3E%3Ccircle cx='680' cy='90' r='2.5' fill='%23ffe0ef'/%3E%3Ccircle cx='620' cy='380' r='3.5' fill='%23fff'/%3E%3Ccircle cx='220' cy='470' r='2' fill='%23ffd6ea'/%3E%3Ccircle cx='720' cy='520' r='2.5' fill='%23fff'/%3E%3Ccircle cx='90' cy='330' r='2' fill='%23fff'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M400 150c-58 0-104 46-104 104 0 40 22 74 55 92l-14 70 63-36 63 36-14-70c33-18 55-52 55-92 0-58-46-104-104-104z' fill='%23fff' opacity='0.14'/%3E%3Cpath d='M400 178c-44 0-80 36-80 80s36 80 80 80 80-36 80-80-36-80-80-80z' fill='%23ff7ab6' opacity='0.9'/%3E%3Cpath d='M400 208c-28 0-50 22-50 50s22 50 50 50 50-22 50-50-22-50-50-50z' fill='%23261a45'/%3E%3Ccircle cx='382' cy='248' r='6' fill='%23fff'/%3E%3Ccircle cx='418' cy='248' r='6' fill='%23fff'/%3E%3Cpath d='M386 274q14 12 28 0' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='0.35' stroke-width='2' fill='none'%3E%3Cpath d='M120 520q60-50 120 0t120 0'/%3E%3Cpath d='M440 530q60-50 120 0t120 0'/%3E%3C/g%3E%3Ctext x='400' y='560' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='26' font-weight='bold' letter-spacing='8' opacity='0.9'%3EWHITE SILK ANIME%3C/text%3E%3C/svg%3E" alt="白丝二次元官方网站主视觉：紫粉渐变的动漫少女光晕图形" width="800" height="600">
+        </div>
+        <div class="bsc-hero-badge"><i></i>本周更新 <strong>48</strong> 部作品 · 官方正版</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S2b intro -->
+<section class="bsc-section" id="bsc-intro">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">About the Brand</span>
+        <h2>关于 <span>白丝二次元</span> 品牌</h2>
+      </div>
+      <p>一个由资深动画从业者与社区运营团队共同打造的二次元内容品牌，专注原创影像与创作者生态。</p>
+    </div>
+    <div class="bsc-intro-grid">
+      <div class="bsc-intro-card">
+        <p>白丝二次元企业成立于 2018 年，是国内较早以「原创 + 正版」为核心定位的二次元视频平台之一。品牌名称取自二次元文化中广为流传的审美意象，我们希望它既是一个记忆点，也是一种品质承诺：干净的界面、高清的画面、真诚的创作氛围。</p>
+        <p>作为官方网站与内容社区的统一入口，我们把番剧放映、创作教程、Cosplay 舞台、声优访谈、同人手作等内容放在同一套内容生态里。平台坚持专业制作、垂直深耕，团队成员大多来自动画、影视与游戏行业，对每一个分镜、每一帧色彩都有自己的判断。</p>
+        <p>成立至今，白丝二次元已与 40 余家动画制作公司、工作室与独立创作者建立长期合作，持续运营 3 个原创企划系列，累计扶持新人创作者 1,200 余位。我们相信，值得信赖的社区不是靠流量堆出来的，而是靠一次次真实、温暖的作品积累出来的。</p>
+        <div class="bsc-intro-tags">
+          <span class="bsc-tag">官方网站</span>
+          <span class="bsc-tag">原创正版</span>
+          <span class="bsc-tag">高清专业</span>
+          <span class="bsc-tag">垂直领域</span>
+          <span class="bsc-tag">持续运营</span>
+        </div>
+      </div>
+      <div class="bsc-intro-side">
+        <div class="bsc-side-card">
+          <h3>品牌关键词</h3>
+          <ul>
+            <li>行业领先的二次元原创内容孵化体系</li>
+            <li>用户首选的动漫创作学习社区</li>
+            <li>覆盖番剧、绘画、Cosplay、声优四大板块</li>
+            <li>企业级内容审核与版权保护机制</li>
+            <li>年度「白丝奖」创作者评选</li>
+          </ul>
+        </div>
+        <div class="bsc-side-light">
+          <h3>最近更新 · 企业动态</h3>
+          <ul class="bsc-mini-log">
+            <li><time>11-20</time><span>「冬日绘梦」创作挑战赛报名开启</span></li>
+            <li><time>11-18</time><span>官方正版番剧库新增 6 部高清重制作品</span></li>
+            <li><time>11-15</time><span>创作者扶持计划第三期名单公示</span></li>
+            <li><time>11-12</time><span>社区公约 2.0 正式发布并生效</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S3 focus -->
+<section class="bsc-section" id="bsc-focus" style="padding-top:10px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Featured</span>
+        <h2>本周 <span>焦点推荐</span></h2>
+      </div>
+      <p>编辑部从当周新作中挑出 4 部重点内容，兼顾剧情、技术与创作表达。</p>
+    </div>
+    <div class="bsc-focus-grid">
+      <article class="bsc-focus-main">
+        <div class="bsc-focus-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231b1436'/%3E%3Cstop offset='0.6' stop-color='%23533a9e'/%3E%3Cstop offset='1' stop-color='%23e970b0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23sky)'/%3E%3Ccircle cx='740' cy='130' r='58' fill='%23fff4fb' opacity='0.94'/%3E%3Ccircle cx='720' cy='118' r='58' fill='%23533a9e' opacity='0.35'/%3E%3Cg fill='%23ffffff' opacity='0.75'%3E%3Ccircle cx='120' cy='90' r='2.5'/%3E%3Ccircle cx='260' cy='50' r='2'/%3E%3Ccircle cx='430' cy='110' r='2.5'/%3E%3Ccircle cx='580' cy='60' r='2'/%3E%3Ccircle cx='860' cy='220' r='2.5'/%3E%3Ccircle cx='330' cy='180' r='2'/%3E%3C/g%3E%3Cpath d='M0 430l140-70 120 46 150-90 170 74 180-60 200 70v140H0z' fill='%23231a45'/%3E%3Cpath d='M0 470l170-52 150 40 190-64 230 58 220-30v78H0z' fill='%23150f2c'/%3E%3Cg%3E%3Crect x='430' y='330' width='100' height='120' rx='8' fill='%23ff7ab6' opacity='0.9'/%3E%3Cpath d='M420 336l60-46 60 46z' fill='%23fff' opacity='0.92'/%3E%3Crect x='466' y='382' width='28' height='68' fill='%23231a45'/%3E%3C/g%3E%3Ctext x='60' y='470' fill='%23ffffff' font-family='sans-serif' font-size='34' font-weight='bold' letter-spacing='3'%3E星织少女 %E2%80%A2 第 8 话%3C/text%3E%3C/svg%3E" alt="焦点推荐《星织少女》第8话封面：紫粉夜空下的少女剪影与星轨" width="960" height="540">
+          <span class="bsc-play" aria-hidden="true"><i>▶</i></span>
+        </div>
+        <div class="bsc-focus-body">
+          <div class="bsc-meta">
+            <span class="bsc-author-mini"><span class="bsc-avatar-xs" style="background:#6c4bd6">灯</span>灯下绘星</span>
+            <span>番剧 · 24:16</span>
+            <span>官方正版</span>
+          </div>
+          <h3>《星织少女》第 8 话：当星轨第一次被人读懂</h3>
+          <p>本话是整季的情绪转折点，团队用长达 90 秒的无对白分镜呈现主角的独白。我们同步放出了分镜手稿与色彩设定，并邀请监督做了一次 20 分钟的幕后对谈。</p>
+          <div class="bsc-chip-row">
+            <span class="bsc-chip">原创番剧</span>
+            <span class="bsc-chip bsc-chip-pink">高清重制</span>
+            <span class="bsc-chip bsc-chip-mint">幕后花絮</span>
+          </div>
+          <div class="bsc-row-foot">
+            <span>▶ 42.8 万</span><span>♥ 3.6 万</span><span>★ 1.2 万</span>
+            <div class="bsc-row-actions">
+              <button class="bsc-act" data-bsc-like="focus1" data-count="36000">👍 点赞</button>
+              <button class="bsc-act" data-bsc-fav="focus1">☆ 收藏</button>
+              <button class="bsc-act" data-bsc-share="《星织少女》第 8 话">↗ 分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="bsc-focus-list">
+        <article class="bsc-focus-item">
+          <span class="bsc-focus-num">01</span>
+          <div>
+            <h4>Cosplay 舞台《白夜织梦》完整直拍</h4>
+            <p>四地联动拍摄的 12 分钟舞台剧，服装全部为手工缝制，附服装制作工艺拆解。</p>
+            <div class="bsc-row-foot" style="margin-top:6px"><span>浅野织</span><span>▶ 18.2 万</span></div>
+          </div>
+        </article>
+        <article class="bsc-focus-item">
+          <span class="bsc-focus-num">02</span>
+          <div>
+            <h4>板绘教程：二次元少女的眼神与高光</h4>
+            <p>从结构到上色共 6 个步骤，附带笔刷参数与图层拆分，适合入门创作者跟练。</p>
+            <div class="bsc-row-foot" style="margin-top:6px"><span>银线老师</span><span>▶ 26.4 万</span></div>
+          </div>
+        </article>
+        <article class="bsc-focus-item">
+          <span class="bsc-focus-num">03</span>
+          <div>
+            <h4>声优访谈：如何为一句话配出三种情绪</h4>
+            <p>录音棚实录 + 台词对照，嘉宾现场演示了三个版本的同一句告别台词。</p>
+            <div class="bsc-row-foot" style="margin-top:6px"><span>声之形工作室</span><span>▶ 9.7 万</span></div>
+          </div>
+        </article>
+        <article class="bsc-focus-item">
+          <span class="bsc-focus-num">04</span>
+          <div>
+            <h4>同人手作：用树脂复刻一枚星轨胸针</h4>
+            <p>完整材料清单与固化时间表，视频里出现的所有道具都可以在官网下载图纸。</p>
+            <div class="bsc-row-foot" style="margin-top:6px"><span>凛的手作间</span><span>▶ 12.1 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S3 video list -->
+<section class="bsc-section" id="bsc-videos" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Video Stream</span>
+        <h2>热门 <span>视频内容</span></h2>
+      </div>
+      <p>按当周播放与互动综合排序，覆盖番剧、教程、舞台与访谈四类内容。</p>
+    </div>
+    <div class="bsc-video-layout">
+      <article class="bsc-video-hero">
+        <div class="bsc-vh-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 560'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fdf3ff'/%3E%3Cstop offset='1' stop-color='%23ffc6e0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='900' height='560' fill='url(%23g1)'/%3E%3Cg stroke='%236c4bd6' stroke-width='3' fill='none' opacity='0.85'%3E%3Crect x='120' y='150' width='240' height='300' rx='16'/%3E%3Crect x='380' y='110' width='240' height='340' rx='16'/%3E%3Crect x='640' y='170' width='160' height='260' rx='14'/%3E%3C/g%3E%3Cg fill='%236c4bd6' opacity='0.6'%3E%3Ccircle cx='200' cy='230' r='26'/%3E%3Ccircle cx='300' cy='300' r='18'/%3E%3Ccircle cx='440' cy='200' r='34'/%3E%3Ccircle cx='540' cy='300' r='22'/%3E%3Ccircle cx='700' cy='250' r='18'/%3E%3C/g%3E%3Cg fill='%23ff7ab6'%3E%3Ccircle cx='230' cy='380' r='10'/%3E%3Ccircle cx='470' cy='390' r='14'/%3E%3Ccircle cx='680' cy='360' r='9'/%3E%3C/g%3E%3Ctext x='450' y='520' text-anchor='middle' fill='%23241b3c' font-family='sans-serif' font-size='30' font-weight='bold' letter-spacing='2'%3E%E7%BA%BF%E6%9D%A1%E4%B8%8E%E5%85%89%E5%BD%B1%E7%9A%84%E7%BB%83%E4%B9%A0%3C/text%3E%3C/svg%3E" alt="热门视频《线条与光影的练习》封面：粉紫底色上的几何画框与笔触图形" width="900" height="560">
+          <span class="bsc-play" aria-hidden="true"><i>▶</i></span>
+        </div>
+        <div class="bsc-vh-body">
+          <h3>线条与光影的练习：30 天绘画打卡全记录</h3>
+          <p>创作者银线老师用一个月时间记录了从线稿到成图的全部过程，并公开了每一张练习的修改思路。视频末尾还附上了适合新手的 7 天训练表。</p>
+          <div class="bsc-chip-row">
+            <span class="bsc-chip">绘画教程</span>
+            <span class="bsc-chip bsc-chip-pink">打卡挑战</span>
+            <span class="bsc-chip bsc-chip-mint">可下载素材</span>
+          </div>
+          <div class="bsc-row-foot">
+            <span>银线老师</span><span>▶ 31.6 万</span><span>15:42</span>
+          </div>
+          <div class="bsc-row-actions">
+            <button class="bsc-act" data-bsc-like="v0" data-count="28400">👍 2.8 万</button>
+            <button class="bsc-act" data-bsc-fav="v0">☆ 收藏</button>
+            <button class="bsc-act" data-bsc-comment="线条与光影的练习">💬 评论</button>
+          </div>
+        </div>
+      </article>
+      <div class="bsc-video-list">
+        <article class="bsc-video-row">
+          <h4>秋冬 Cosplay 妆造全流程：从素颜到角色</h4>
+          <p>分步骤演示底妆、眼妆与假发定型，特别说明了敏感肌如何选择持久型产品。</p>
+          <div class="bsc-chip-row"><span class="bsc-chip">Cosplay</span><span class="bsc-chip bsc-chip-pink">实用技巧</span></div>
+          <div class="bsc-row-foot">
+            <span>浅野织</span><span>▶ 22.9 万</span><span>♥ 1.9 万</span>
+            <div class="bsc-row-actions">
+              <button class="bsc-act" data-bsc-like="v1" data-count="19000">👍</button>
+              <button class="bsc-act" data-bsc-fav="v1">☆</button>
+              <button class="bsc-act" data-bsc-share="秋冬 Cosplay 妆造全流程">↗</button>
+            </div>
+          </div>
+        </article>
+        <article class="bsc-video-row">
+          <h4>原创短篇动画《夏日回声》完整版</h4>
+          <p>一支 8 分钟的手绘短篇，讲述少女与旧收音机的故事。制作团队三人，历时七个月。</p>
+          <div class="bsc-chip-row"><span class="bsc-chip">原创动画</span><span class="bsc-chip bsc-chip-mint">创作幕后</span></div>
+          <div class="bsc-row-foot">
+            <span>夏日回声制作组</span><span>▶ 19.4 万</span><span>♥ 2.2 万</span>
+            <div class="bsc-row-actions">
+              <button class="bsc-act" data-bsc-like="v2" data-count="22000">👍</button>
+              <button class="bsc-act" data-bsc-fav="v2">☆</button>
+              <button class="bsc-act" data-bsc-comment="夏日回声">💬</button>
+            </div>
+          </div>
+        </article>
+        <article class="bsc-video-row">
+          <h4>声优试音现场：一句台词的五种演法</h4>
+          <p>录音棚直拍，五位新人声优对同一句台词给出完全不同处理，评委现场逐一点评。</p>
+          <div class="bsc-chip-row"><span class="bsc-chip">人物访谈</span><span class="bsc-chip bsc-chip-pink">行业观察</span></div>
+          <div class="bsc-row-foot">
+            <span>声之形工作室</span><span>▶ 14.2 万</span><span>♥ 1.1 万</span>
+            <div class="bsc-row-actions">
+              <button class="bsc-act" data-bsc-like="v3" data-count="11000">👍</button>
+              <button class="bsc-act" data-bsc-fav="v3">☆</button>
+              <button class="bsc-act" data-bsc-share="声优试音现场">↗</button>
+            </div>
+          </div>
+        </article>
+        <article class="bsc-video-row">
+          <h4>城市探索：寻找藏在老街里的同人小店</h4>
+          <p>走访三座城市的老街区，记录同人志、手办与手作店铺的日常经营与线下聚会。</p>
+          <div class="bsc-chip-row"><span class="bsc-chip">城市探索</span><span class="bsc-chip bsc-chip-mint">在地文化</span></div>
+          <div class="bsc-row-foot">
+            <span>街头取景器</span><span>▶ 11.8 万</span><span>♥ 0.9 万</span>
+            <div class="bsc-row-actions">
+              <button class="bsc-act" data-bsc-like="v4" data-count="9000">👍</button>
+              <button class="bsc-act" data-bsc-fav="v4">☆</button>
+              <button class="bsc-act" data-bsc-comment="同人小店">💬</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S4 topics -->
+<section class="bsc-section" id="bsc-topics" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Special Projects</span>
+        <h2>专题 <span>与企划</span></h2>
+      </div>
+      <p>三大长期企划持续更新中，白丝二次元的原创内容生态由此展开。</p>
+    </div>
+    <div class="bsc-topic-grid">
+      <article class="bsc-topic">
+        <div class="bsc-topic-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23231a45'/%3E%3Cg fill='none' stroke='%23ff7ab6' stroke-width='2.5'%3E%3Cpath d='M80 300q120-220 240 0t240-120'/%3E%3Cpath d='M80 250q120-170 240 0t240-90' opacity='0.6'/%3E%3C/g%3E%3Cg fill='%23ffffff'%3E%3Ccircle cx='140' cy='120' r='3'/%3E%3Ccircle cx='320' cy='70' r='4'/%3E%3Ccircle cx='500' cy='140' r='3'/%3E%3Ccircle cx='580' cy='60' r='2.5'/%3E%3C/g%3E%3Ctext x='40' y='66' fill='%23ffd6ea' font-family='sans-serif' font-size='24' font-weight='bold'%3E%E6%98%9F%E7%BB%87%E5%B0%91%E5%A5%B3%3C/text%3E%3C/svg%3E" alt="专题《星织少女》原创动画企划封面：深紫夜空与粉色星轨曲线" width="640" height="360">
+        </div>
+        <div class="bsc-topic-body">
+          <span class="bsc-topic-status"><i></i>更新中 · 第 2 季</span>
+          <h3>《星织少女》原创动画企划</h3>
+          <p>从角色设定、分镜手稿到成片放映的完整记录，每两周更新一期制作日志。</p>
+          <ul class="bsc-topic-list">
+            <li>第 8 话正片与幕后分镜公开</li>
+            <li>角色设计访谈：为什么她的发梢是透明的</li>
+            <li>配乐制作特辑：三种乐器的情绪实验</li>
+          </ul>
+        </div>
+      </article>
+      <article class="bsc-topic">
+        <div class="bsc-topic-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23fbf6ff'/%3E%3Cg stroke='%236c4bd6' stroke-width='3' fill='none'%3E%3Cpath d='M90 280l80-120 70 90 70-150 90 180'/%3E%3C/g%3E%3Cg fill='%23ff7ab6'%3E%3Ccircle cx='90' cy='280' r='9'/%3E%3Ccircle cx='170' cy='160' r='9'/%3E%3Ccircle cx='240' cy='250' r='9'/%3E%3Ccircle cx='310' cy='100' r='9'/%3E%3Ccircle cx='400' cy='280' r='9'/%3E%3C/g%3E%3Cg fill='%236c4bd6' opacity='0.25'%3E%3Crect x='470' y='90' width='110' height='14' rx='7'/%3E%3Crect x='470' y='122' width='80' height='14' rx='7'/%3E%3Crect x='470' y='154' width='96' height='14' rx='7'/%3E%3C/g%3E%3Ctext x='40' y='66' fill='%236c4bd6' font-family='sans-serif' font-size='24' font-weight='bold'%3E%E5%88%9B%E4%BD%9C%E6%8C%91%E6%88%98%E8%B5%9B%3C/text%3E%3C/svg%3E" alt="专题创作挑战赛封面：浅紫底色上的上升折线与数据块" width="640" height="360">
+        </div>
+        <div class="bsc-topic-body">
+          <span class="bsc-topic-status"><i></i>报名中 · 截止 12-20</span>
+          <h3>「冬日绘梦」创作挑战赛</h3>
+          <p>面向所有注册创作者开放，主题为「冬日与梦」，接受绘画、短片、Cosplay 三类投稿。</p>
+          <ul class="bsc-topic-list">
+            <li>报名通道与投稿规则说明</li>
+            <li>往届获奖作品回顾与作者对谈</li>
+            <li>评委阵容公布：动画监督、插画师、摄影师</li>
+          </ul>
+        </div>
+      </article>
+      <article class="bsc-topic">
+        <div class="bsc-topic-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%231d2b2a'/%3E%3Cg fill='%2339c9a5' opacity='0.85'%3E%3Crect x='70' y='210' width='40' height='90' rx='6'/%3E%3Crect x='130' y='170' width='40' height='130' rx='6'/%3E%3Crect x='190' y='230' width='40' height='70' rx='6'/%3E%3Crect x='250' y='140' width='40' height='160' rx='6'/%3E%3C/g%3E%3Cg stroke='%23ffd6ea' stroke-width='3' fill='none'%3E%3Cpath d='M350 300q60-160 120-60t120-100'/%3E%3C/g%3E%3Ccircle cx='590' cy='140' r='10' fill='%23ff7ab6'/%3E%3Ctext x='40' y='66' fill='%2339c9a5' font-family='sans-serif' font-size='24' font-weight='bold'%3E%E5%88%9B%E4%BD%9C%E8%80%85%E6%89%B6%E6%8C%81%3C/text%3E%3C/svg%3E" alt="专题创作者扶持计划封面：深绿底色上的柱状图与曲线" width="640" height="360">
+        </div>
+        <div class="bsc-topic-body">
+          <span class="bsc-topic-status"><i></i>长期运营 · 季度评审</span>
+          <h3>创作者扶持计划</h3>
+          <p>为新人创作者提供流量支持、设备补贴与专业导师辅导，每季度公布一次入选名单。</p>
+          <ul class="bsc-topic-list">
+            <li>第三期入选名单与作品展映</li>
+            <li>导师课：如何把草图变成可拍摄的分镜</li>
+            <li>扶持作品数据报告与成长轨迹</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- S5 creators -->
+<section class="bsc-section" id="bsc-creators" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Creators</span>
+        <h2>创作者 <span>矩阵</span></h2>
+      </div>
+      <p>五位长期驻站的创作者，覆盖绘画、Cosplay、声优、短片与手作五个方向。</p>
+    </div>
+    <div class="bsc-creators">
+      <article class="bsc-author-card">
+        <div class="bsc-author-top">
+          <span class="bsc-avatar" style="background:linear-gradient(140deg,#6c4bd6,#a24bd6)">银</span>
+          <div>
+            <h3>银线老师</h3>
+            <span>绘画教程 / 插画创作</span>
+          </div>
+        </div>
+        <p class="bsc-author-bio">十二年板绘经验，擅长二次元人物与光影处理。她的教程以「讲得清楚」著称，习惯把每一步的笔刷参数与图层逻辑写进视频简介，被社区称为最好跟练的老师之一。</p>
+        <div class="bsc-author-foot">
+          <span>作品 <b>186</b></span><span>粉丝 <b>42.6 万</b></span>
+          <button class="bsc-author-more" data-bsc-author="银线老师|绘画教程|186|42.6 万|十二年板绘经验，擅长二次元人物与光影处理。">查看档案</button>
+        </div>
+      </article>
+      <article class="bsc-author-card">
+        <div class="bsc-author-top">
+          <span class="bsc-avatar" style="background:linear-gradient(140deg,#ff7ab6,#ffb454)">浅</span>
+          <div>
+            <h3>浅野织</h3>
+            <span>Cosplay / 舞台表演</span>
+          </div>
+        </div>
+        <p class="bsc-author-bio">舞台型 Coser，擅长把角色情绪带进现场表演。她的妆造视频从不只展示成品，而是把失败与返工也剪进去，让新手看到真实的制作过程，因此收获了大量口碑。</p>
+        <div class="bsc-author-foot">
+          <span>作品 <b>92</b></span><span>粉丝 <b>28.3 万</b></span>
+          <button class="bsc-author-more" data-bsc-author="浅野织|Cosplay|92|28.3 万|舞台型 Coser，擅长把角色情绪带进现场表演。">查看档案</button>
+        </div>
+      </article>
+      <article class="bsc-author-card">
+        <div class="bsc-author-top">
+          <span class="bsc-avatar" style="background:linear-gradient(140deg,#39c9a5,#2f8fd6)">声</span>
+          <div>
+            <h3>声之形工作室</h3>
+            <span>声优访谈 / 配音教学</span>
+          </div>
+        </div>
+        <p class="bsc-author-bio">由四位在职配音演员组成的工作室，专注把录音棚里的真实工作状态呈现给观众。他们相信声音是有形状的，每一期访谈都会附上未剪辑的试音片段供学习。</p>
+        <div class="bsc-author-foot">
+          <span>作品 <b>74</b></span><span>粉丝 <b>19.8 万</b></span>
+          <button class="bsc-author-more" data-bsc-author="声之形工作室|声优访谈|74|19.8 万|由四位在职配音演员组成的工作室，专注把录音棚里的真实工作状态呈现给观众。">查看档案</button>
+        </div>
+      </article>
+      <article class="bsc-author-card">
+        <div class="bsc-author-top">
+          <span class="bsc-avatar" style="background:linear-gradient(140deg,#4b2f8f,#6c4bd6)">夏</span>
+          <div>
+            <h3>夏日回声制作组</h3>
+            <span>原创短篇动画</span>
+          </div>
+        </div>
+        <p class="bsc-author-bio">三人小团队，坚持手绘与实景合成结合的方式做短篇动画。他们更新很慢，但每一支作品都会公开完整的分镜表与时间规划，是社区里公认的「匠心型」创作组。</p>
+        <div class="bsc-author-foot">
+          <span>作品 <b>21</b></span><span>粉丝 <b>15.2 万</b></span>
+          <button class="bsc-author-more" data-bsc-author="夏日回声制作组|原创动画|21|15.2 万|三人小团队，坚持手绘与实景合成结合的方式做短篇动画。">查看档案</button>
+        </div>
+      </article>
+      <article class="bsc-author-card">
+        <div class="bsc-author-top">
+          <span class="bsc-avatar" style="background:linear-gradient(140deg,#ffb454,#ff7ab6)">凛</span>
+          <div>
+            <h3>凛的手作间</h3>
+            <span>手作 DIY / 道具制作</span>
+          </div>
+        </div>
+        <p class="bsc-author-bio">从树脂胸针到可穿戴机甲部件，她的视频总是从材料清单开始讲起。她说手作最重要的是耐心，而镜头恰好能记录下这份耐心的形状，所以她的作品总带着温度。</p>
+        <div class="bsc-author-foot">
+          <span>作品 <b>113</b></span><span>粉丝 <b>24.1 万</b></span>
+          <button class="bsc-author-more" data-bsc-author="凛的手作间|手作 DIY|113|24.1 万|从树脂胸针到可穿戴机甲部件，她的视频总是从材料清单开始讲起。">查看档案</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- S6 keyword insight article -->
+<section class="bsc-section" id="bsc-insight" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <article class="bsc-article">
+      <span class="bsc-eyebrow">Deep Dive</span>
+      <h2>关键词解析：白丝二次元为何值得被认真对待</h2>
+      <p class="bsc-article-lead">从内容生态、创作者培养与社区运营三个角度，理解一个垂直视频平台的长期主义。</p>
+
+      <h3>一、内容生态：从「看」到「做」的完整链条</h3>
+      <p>如果你想理解白丝二次元的内容逻辑，最好先看看首页之外的页面。这里的内容不是按热度随便堆在一起，而是按照「看—学—做—分享」的链条组织的。观众先通过正版番剧与短片建立审美判断，再进入绘画教程、Cosplay 妆造、声优教学等实用内容里学习具体技能，接着用官方提供的素材包与图纸动手实践，最后把成果投稿回社区，完成一次完整的循环。</p>
+      <p>这种结构让<strong>白丝二次元</strong>不只是一个播放器，而是一个有反馈的内容生态。我们统计过，社区里超过六成的教程类视频下都出现了「交作业」式的评论，作者会在评论区逐条回复修改意见。这种互动密度，是垂直领域平台相对综合平台最真实的价值所在。也正因如此，我们才敢说自己的内容是「值得信赖」的——不是因为流量大，而是因为有人真的照着做了，并且做成了。</p>
+      <div class="bsc-inline-figure">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%23f4efff'/%3E%3Cg stroke='%236c4bd6' stroke-width='2' fill='none'%3E%3Crect x='60' y='60' width='130' height='80' rx='10'/%3E%3Crect x='215' y='60' width='130' height='80' rx='10'/%3E%3Crect x='370' y='60' width='130' height='80' rx='10'/%3E%3Cpath d='M190 100h25M345 100h25'/%3E%3C/g%3E%3Cg fill='%23ff7ab6'%3E%3Ccircle cx='125' cy='100' r='14'/%3E%3Ccircle cx='280' cy='100' r='14'/%3E%3Ccircle cx='435' cy='100' r='14'/%3E%3C/g%3E%3Cg fill='%236c4bd6' opacity='0.3'%3E%3Crect x='60' y='190' width='440' height='12' rx='6'/%3E%3Crect x='60' y='218' width='320' height='12' rx='6'/%3E%3Crect x='60' y='246' width='380' height='12' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="内容生态流程图：观看、学习、实践三个环节串联的示意图形" width="560" height="315">
+          <figcaption>内容生态的「看—学—做」三段式结构示意</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%23231a45'/%3E%3Cg fill='%23ff7ab6'%3E%3Crect x='70' y='200' width='46' height='70' rx='5'/%3E%3Crect x='140' y='160' width='46' height='110' rx='5'/%3E%3Crect x='210' y='120' width='46' height='150' rx='5'/%3E%3Crect x='280' y='90' width='46' height='180' rx='5'/%3E%3C/g%3E%3Cg fill='%23ffffff'%3E%3Crect x='70' y='200' width='46' height='22' rx='5' opacity='0.4'/%3E%3Crect x='140' y='160' width='46' height='26' rx='5' opacity='0.4'/%3E%3C/g%3E%3Cg stroke='%2339c9a5' stroke-width='3' fill='none'%3E%3Cpath d='M360 240l40-60 40 30 50-90'/%3E%3C/g%3E%3Ccircle cx='490' cy='120' r='9' fill='%2339c9a5'/%3E%3C/svg%3E" alt="创作增长数据图：深色底上的柱状图与上升折线组合" width="560" height="315">
+          <figcaption>近三季创作者投稿量与完播率同步上升</figcaption>
+        </figure>
+      </div>
+
+      <h3>二、创作者培养：把「业余」变成「专业」的路径</h3>
+      <p>在<strong>白丝二次元</strong>，创作者不是一个标签，而是一条可以走的路。我们内部把创作者成长分成四个阶段：兴趣记录者、稳定更新者、风格确立者、专业合作者。每个阶段都有对应支持，例如兴趣阶段提供拍摄模板与基础剪辑课，稳定更新阶段提供流量池推荐与素材授权，风格确立阶段提供导师一对一评审，专业合作阶段则对接商业项目与线下展映机会。</p>
+      <p>这种分层并不是为了制造门槛，恰恰相反，是为了让每个阶段的创作者都能拿到「当下最需要」的帮助。过去一年，我们一共举办了 14 场线上工作坊与 3 场线下创作营，累计参与人数超过 5,000 人次。有创作者在访谈里说，他第一次知道「分镜不是画得好看就行，而是要控制观众的情绪节奏」，就是在我们的一次导师课上学到的。这类具体的、可迁移的知识，正是垂直领域企业应当承担的社会责任。</p>
+      <div class="bsc-quote">「这里的社区氛围是真实的。你发一个作品，会有人说哪里画得好，也会有人说哪里结构不对，但没有人只是来嘲讽你。」——社区创作者留言</div>
+
+      <h3>三、社区运营：以用户至上为原则的长期主义</h3>
+      <p>一个视频品牌能不能持续运营，看的是它如何处理那些「不显眼」的事情：评论区秩序、版权申诉、新人引导、线下活动的组织成本。<strong>白丝二次元</strong>在这几件事上投入了相当多的精力。我们建立了三级审核机制，对高风险内容进行人工复核；开通了原创保护绿色通道，帮助创作者处理盗搬与二改；在每条视频下方提供「新手友好」标记，让第一次接触二次元文化的用户也能顺畅地找到入门内容。</p>
+      <p>同时，我们也清楚自己不是完美的。社区里仍然存在争论与分化，仍然有创作者因为精力有限而停更。对此我们的态度是：不承诺完美，但承诺回应。每一条超过 200 字的用户反馈都会进入内部周报，重点问题在两周内公示处理结果。这种看起来笨拙的做法，反而让品牌口碑变得扎实。截至 2026 年 11 月，平台的用户满意度维持在 4.9 分，复访率超过七成。</p>
+      <h3>四、未来方向：在多元与包容中保持品质</h3>
+      <p>二次元文化本身就是多元的，它容纳了热血、治愈、悬疑、日常等截然不同的表达方式。<strong>白丝二次元</strong>希望自己的内容生态也能保持这种包容性：既有适合新人的入门教程，也有愿意等待半年才更新一次的深度短片；既有 Cosplay 舞台的华丽呈现，也有手作桌前一个人安静打磨零件的长镜头。我们不认为流量和品质必须二选一，但确实认为品质需要被持续守护。</p>
+      <p>接下来的一个季度，平台会开放更多原创企划的联合制作名额，并把创作挑战赛的评审过程全程公开，让更多人看到「好作品是怎样被选出来的」。我们也会继续完善高清播放与正版授权体系，让每一个点击播放的观众都能安心观看，让每一位创作者都能被公正对待。这是白丝二次元作为官方网站与企业主体的承诺，也是我们愿意长期投入的原因。</p>
+    </article>
+  </div>
+</section>
+
+<!-- S6 rank + reviews -->
+<section class="bsc-section" id="bsc-rank" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Charts & Reviews</span>
+        <h2>榜单 <span>与用户评价</span></h2>
+      </div>
+      <p>综合当周播放、互动与口碑数据生成，每周一更新。</p>
+    </div>
+    <div class="bsc-rank-grid">
+      <div class="bsc-rank-box">
+        <h3>本周热度榜 · TOP 8</h3>
+        <div class="bsc-rank-list">
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">01</span><span class="bsc-rk-title">《星织少女》第 8 话：当星轨第一次被人读懂</span><span class="bsc-rk-num">42.8 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">02</span><span class="bsc-rk-title">线条与光影的练习：30 天绘画打卡全记录</span><span class="bsc-rk-num">31.6 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">03</span><span class="bsc-rk-title">秋冬 Cosplay 妆造全流程：从素颜到角色</span><span class="bsc-rk-num">22.9 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">04</span><span class="bsc-rk-title">原创短篇动画《夏日回声》完整版</span><span class="bsc-rk-num">19.4 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">05</span><span class="bsc-rk-title">声优试音现场：一句台词的五种演法</span><span class="bsc-rk-num">14.2 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">06</span><span class="bsc-rk-title">同人手作：用树脂复刻一枚星轨胸针</span><span class="bsc-rk-num">12.1 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-videos"><span class="bsc-rk">07</span><span class="bsc-rk-title">城市探索：寻找藏在老街里的同人小店</span><span class="bsc-rk-num">11.8 万</span></a>
+          <a class="bsc-rank-item" href="#bsc-creators"><span class="bsc-rk">08</span><span class="bsc-rk-title">新人榜 · 冬日绘梦投稿作品精选</span><span class="bsc-rk-num">9.9 万</span></a>
+        </div>
+      </div>
+      <div>
+        <div class="bsc-review-grid">
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#6c4bd6,#ff7ab6)">阿</span>
+              <div><h4>阿绫的草稿箱</h4><span>加入社区 3 年</span></div>
+              <span class="bsc-stars">★★★★★</span>
+            </div>
+            <p>最打动我的是教程的完整性。别的平台可能只给你看成品，这里的老师会把失败的图层也放出来，解释为什么放弃。这种坦诚让我少走了很多弯路。</p>
+          </article>
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#39c9a5,#2f8fd6)">夜</span>
+              <div><h4>夜航星</h4><span>番剧用户</span></div>
+              <span class="bsc-stars">★★★★★</span>
+            </div>
+            <p>画质是真的很稳，番剧做了高清重制，细节能看到。作为观众我没什么别的要求，就是想安静看完一集，这里做到了。</p>
+          </article>
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#ffb454,#ff7ab6)">小</span>
+              <div><h4>小满的舞台笔记</h4><span>Cosplay 爱好者</span></div>
+              <span class="bsc-stars">★★★★☆</span>
+            </div>
+            <p>舞台直拍的机位很专业，多角度切换不混乱。扣一星是因为有时更新预告会延迟，希望排期能更准时一点。</p>
+          </article>
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#a24bd6,#4b2f8f)">柚</span>
+              <div><h4>柚子茶不加糖</h4><span>新人创作者</span></div>
+              <span class="bsc-stars">★★★★★</span>
+            </div>
+            <p>投稿流程比想象中简单，提交后有专门的编辑回复修改意见，不是模板话术，是真的看了。第一次投稿就收到建议，挺受鼓励的。</p>
+          </article>
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#2f8fd6,#39c9a5)">白</span>
+              <div><h4>白噪声</h4><span>声优区常驻</span></div>
+              <span class="bsc-stars">★★★★★</span>
+            </div>
+            <p>声优访谈做得很用心，会保留未剪辑版本，能看到同一个人在反复尝试不同情绪。这种内容在别处很难找到。</p>
+          </article>
+          <article class="bsc-review">
+            <div class="bsc-review-top">
+              <span class="bsc-avatar" style="width:36px;height:36px;border-radius:12px;font-size:14px;background:linear-gradient(140deg,#ff7ab6,#a24bd6)">木</span>
+              <div><h4>木木手作</h4><span>手作区用户</span></div>
+              <span class="bsc-stars">★★★★☆</span>
+            </div>
+            <p>材料清单和图纸能下载，这点非常实用。就是有些旧视频的图纸链接失效了，希望能定期清理和补齐。</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S7 dynamics + partners -->
+<section class="bsc-section" id="bsc-dynamics" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Newsroom</span>
+        <h2>企业动态 <span>与合作伙伴</span></h2>
+      </div>
+      <p>品牌资讯、内容更新与长期合作伙伴公示。</p>
+    </div>
+    <div class="bsc-creators" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));margin-bottom:26px">
+      <article class="bsc-review">
+        <div class="bsc-review-top"><span class="bsc-chip bsc-chip-pink">11-20</span><div><h4>「冬日绘梦」创作挑战赛正式开启报名</h4><span>官方发布</span></div></div>
+        <p>本届挑战赛设有绘画、短片、Cosplay 三个赛道，报名截止 12 月 20 日，评审过程将全程公开直播，获奖作品会在官网首页展映一个月。</p>
+      </article>
+      <article class="bsc-review">
+        <div class="bsc-review-top"><span class="bsc-chip bsc-chip-mint">11-18</span><div><h4>官方正版番剧库新增 6 部高清重制作品</h4><span>内容更新</span></div></div>
+        <p>本次重制涵盖画面修复与音轨重混，全部作品已通过版权方授权审核，用户可在视频页直接切换高清档位，老作品也能看得更清楚。</p>
+      </article>
+      <article class="bsc-review">
+        <div class="bsc-review-top"><span class="bsc-chip">11-15</span><div><h4>创作者扶持计划第三期名单公示</h4><span>企业动态</span></div></div>
+        <p>本期共有 46 位创作者入选，覆盖动画、绘画、手作与配音四个方向。入选者将获得设备补贴、导师辅导与为期六个月的流量支持。</p>
+      </article>
+    </div>
+    <div class="bsc-partner-strip">
+      <div class="bsc-partner">星轨动画<small>长期内容合作</small></div>
+      <div class="bsc-partner">白夜工作室<small>原创企划联合出品</small></div>
+      <div class="bsc-partner">声之形<small>声优内容支持</small></div>
+      <div class="bsc-partner">绘星社<small>绘画课程共建</small></div>
+      <div class="bsc-partner">绒光手作<small>材料与工具支持</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- S7 faq -->
+<section class="bsc-section" id="bsc-faq" style="padding-top:8px">
+  <div class="bsc-wrap">
+    <div class="bsc-section-head">
+      <div>
+        <span class="bsc-eyebrow">Help Center</span>
+        <h2>常见问题 <span>帮助中心</span></h2>
+      </div>
+      <p>关于观看、投稿、版权与账号的常见疑问，都可以在这里找到答案。</p>
+    </div>
+    <div class="bsc-faq">
+      <details open>
+        <summary>观看白丝二次元的内容需要付费吗？</summary>
+        <p>大部分原创内容与教程免费开放。部分正版番剧与独家幕后花絮属于会员内容，但每周会有固定时段开放限时免费观看，社区新人也可领取七天体验资格。</p>
+      </details>
+      <details>
+        <summary>如何向官网投稿自己的作品？</summary>
+        <p>点击页面中的「投稿入口」，填写作品标题、简介与发布链接即可。我们建议附上制作过程说明，编辑会在五个工作日内给出审核结果与修改建议。</p>
+      </details>
+      <details>
+        <summary>发现作品被盗搬，平台会处理吗？</summary>
+        <p>会。我们设有原创保护绿色通道，创作者提交权属证明后，平台会在核实后下架侵权内容，并协助整理证据材料。这是企业应尽的版权保护责任。</p>
+      </details>
+      <details>
+        <summary>创作挑战赛的评审标准是什么？</summary>
+        <p>评审分为创意表达、完成度、技术执行与社区互动四个维度，各占不同权重。完整评分表会在报名页面公示，评审过程也将全程公开，确保公平。</p>
+      </details>
+      <details>
+        <summary>手机上看高清画质会卡顿吗？</summary>
+        <p>播放器会根据网络状况自动选择合适档位，也支持手动切换。如果出现持续卡顿，建议在网络设置中查看当前带宽，或使用网页端的低延迟模式。</p>
+      </details>
+      <details>
+        <summary>社区对新手友好吗？</summary>
+        <p>我们为新手内容标注了「入门友好」标签，并整理了从零开始的绘画、妆造、配音三条学习路径。评论区也设有明确的社区公约，倡导真实、温暖的交流氛围。</p>
+      </details>
+      <details>
+        <summary>如何联系企业与商务合作？</summary>
+        <p>可以通过页脚的商务合作邮箱联系，说明合作方向、时间与预算范围。我们会在三个工作日内回复，并对符合品牌调性的原创项目优先安排沟通。</p>
+      </details>
+    </div>
+
+    <div class="bsc-cta">
+      <div>
+        <h2>把你的作品，放进白丝二次元的内容生态</h2>
+        <p>无论你是第一次拿起画笔，还是已经完成过一支短片，这里都有属于你的位置。投稿、参赛或加入创作者扶持计划，让真实与温暖被更多人看见。</p>
+      </div>
+      <div class="bsc-cta-actions">
+        <button class="bsc-btn bsc-btn-primary" data-bsc-modal="contribute">立即投稿</button>
+        <button class="bsc-btn bsc-btn-ghost" data-bsc-share="白丝二次元官方网站">分享给同好</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S8 footer -->
+<footer class="bsc-footer">
+  <div class="bsc-wrap">
+    <div class="bsc-footer-grid">
+      <div>
+        <div class="bsc-footer-brand"><span class="bsc-brand-mark" style="width:30px;height:30px;font-size:14px;border-radius:9px">白</span>白丝二次元</div>
+        <p>白丝二次元官方网站 · 二次元原创视频内容社区。<br>坚持原创、正版、高清的内容标准，构建值得信赖的创作者内容生态。</p>
+        <p style="margin-top:12px">商务合作：biz@whitesilk-anime.example<br>内容申诉：rights@whitesilk-anime.example</p>
+      </div>
+      <div>
+        <h3>内容频道</h3>
+        <ul>
+          <li><a href="#bsc-videos">番剧放映</a></li>
+          <li><a href="#bsc-videos">绘画教程</a></li>
+          <li><a href="#bsc-videos">Cosplay 舞台</a></li>
+          <li><a href="#bsc-videos">声优访谈</a></li>
+          <li><a href="#bsc-videos">同人手作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于平台</h3>
+        <ul>
+          <li><a href="#bsc-intro">品牌介绍</a></li>
+          <li><a href="#bsc-topics">专题企划</a></li>
+          <li><a href="#bsc-creators">创作者矩阵</a></li>
+          <li><a href="#bsc-dynamics">企业动态</a></li>
+          <li><a href="#bsc-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区与支持</h3>
+        <ul>
+          <li><a href="#" data-bsc-modal="contribute">作品投稿</a></li>
+          <li><a href="#bsc-topics">创作挑战赛报名</a></li>
+          <li><a href="#bsc-insight">关键词解析</a></li>
+          <li><a href="#bsc-rank">榜单与评价</a></li>
+          <li><a href="#bsc-top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bsc-footer-bottom">
+      <span>© 2018–2026 白丝二次元 版权所有 · 官方网站 · 持续运营中</span>
+      <span>网络文化经营许可证：示例编号 2026-BSC-001 · 备案号：示例备 20260001 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="bsc-top" id="bsc-top-btn" type="button" aria-label="回到顶部">↑</button>
+<div class="bsc-toast" id="bsc-toast" role="status" aria-live="polite"></div>
+
+<div class="bsc-modal-mask" id="bsc-modal-mask">
+  <div class="bsc-modal" role="dialog" aria-modal="true" aria-labelledby="bsc-modal-title">
+    <h3 id="bsc-modal-title">标题</h3>
+    <p class="bsc-modal-sub" id="bsc-modal-sub">副标题</p>
+    <div id="bsc-modal-body"></div>
+    <div class="bsc-modal-foot">
+      <button class="bsc-btn bsc-btn-ghost" data-bsc-close>关闭</button>
+      <button class="bsc-btn bsc-btn-primary" id="bsc-modal-confirm">确定</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toast = document.getElementById('bsc-toast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2200);
+  }
+
+  /* mobile nav */
+  var burger = document.getElementById('bsc-burger');
+  var mobileNav = document.getElementById('bsc-mobile-nav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* search */
+  var searchInput = document.getElementById('bsc-search-input');
+  var searchBtn = document.getElementById('bsc-search-btn');
+  var searchFeedback = document.getElementById('bsc-search-feedback');
+  var suggestions = ['星织少女','绘画教程','Cosplay 妆造','声优访谈','手作胸针','创作挑战赛','夏日回声','创作者扶持'];
+  function doSearch(){
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.textContent = '试试搜索：' + suggestions.slice(0,3).join('、');
+      searchFeedback.classList.add('show');
+      return;
+    }
+    var hit = suggestions.filter(function(s){ return s.indexOf(q) !== -1 || q.indexOf(s) !== -1; });
+    if(hit.length){
+      searchFeedback.innerHTML = '已为你匹配到 <strong>' + hit.length + '</strong> 个相关条目：' + hit.slice(0,4).join('、') + '。可在下方热门视频中查看。';
+      showToast('已展示与「' + q + '」相关的内容入口');
+    }else{
+      searchFeedback.innerHTML = '暂未找到「' + q + '」的直接结果，推荐浏览 <strong>热门视频</strong> 与 <strong>专题企划</strong> 板块。';
+    }
+    searchFeedback.classList.add('show');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  searchInput.addEventListener('input', function(){ if(!searchInput.value){ searchFeedback.classList.remove('show'); } });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.bsc-search-wrap')) searchFeedback.classList.remove('show');
+  });
+
+  /* like */
+  document.querySelectorAll('[data-bsc-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var base = parseInt(btn.getAttribute('data-count'), 10) || 0;
+      var on = btn.classList.toggle('on');
+      if(on){
+        var n = base + 1;
+        btn.textContent = '👍 ' + (n >= 10000 ? (n/10000).toFixed(1) + ' 万' : n);
+        showToast('已点赞，谢谢你的支持');
+      }else{
+        btn.textContent = '👍 ' + (base >= 10000 ? (base/10000).toFixed(1) + ' 万' : base);
+        showToast('已取消点赞');
+      }
+    });
+  });
+
+  /* favorite */
+  document.querySelectorAll('[data-bsc-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('on');
+      btn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      showToast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* modal */
+  var mask = document.getElementById('bsc-modal-mask');
+  var mTitle = document.getElementById('bsc-modal-title');
+  var mSub = document.getElementById('bsc-modal-sub');
+  var mBody = document.getElementById('bsc-modal-body');
+  var mConfirm = document.getElementById('bsc-modal-confirm');
+  var modalAction = null;
+
+  function openModal(title, sub, bodyHTML, confirmText, action){
+    mTitle.textContent = title;
+    mSub.textContent = sub;
+    mBody.innerHTML = bodyHTML;
+    mConfirm.textContent = confirmText || '确定';
+    modalAction = action || null;
+    mask.classList.add('show');
+  }
+  function closeModal(){ mask.classList.remove('show'); modalAction = null; }
+  document.querySelectorAll('[data-bsc-close]').forEach(function(b){ b.addEventListener('click', closeModal); });
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+  mConfirm.addEventListener('click', function(){
+    if(modalAction){ modalAction(); }
+    closeModal();
+  });
+
+  /* contribute modal */
+  document.querySelectorAll('[data-bsc-modal="contribute"]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal('作品投稿入口', '提交后 5 个工作日内会收到编辑回复', 
+        '<input type="text" placeholder="作品标题" aria-label="作品标题">' +
+        '<textarea rows="3" placeholder="作品简介：想表达什么、制作时长、使用的工具" aria-label="作品简介"></textarea>' +
+        '<input type="text" placeholder="作品链接（可选）" aria-label="作品链接">',
+        '提交投稿',
+        function(){ showToast('投稿已提交，感谢你的创作'); }
+      );
+    });
+  });
+
+  /* share modal */
+  document.querySelectorAll('[data-bsc-share]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      var t = el.getAttribute('data-bsc-share') || '白丝二次元';
+      openModal('分享作品', t,
+        '<div class="bsc-share-row">' +
+          '<button type="button" data-bsc-copy>复制链接</button>' +
+          '<button type="button" data-bsc-wechat>微信</button>' +
+          '<button type="button" data-bsc-weibo>微博</button>' +
+        '</div>' +
+        '<p style="font-size:13px;color:#6f6690;margin:0">分享链接时请保留原作者信息，尊重原创与正版内容。感谢你的支持。</p>',
+        '完成',
+        function(){ showToast('分享操作已完成'); }
+      );
+      var copyBtn = document.querySelector('[data-bsc-copy]');
+      if(copyBtn){
+        copyBtn.addEventListener('click', function(){
+          var link = 'https://example.com/bsc-share';
+          if(navigator.clipboard && navigator.clipboard.writeText){
+            navigator.clipboard.writeText(link).then(function(){ showToast('链接已复制到剪贴板'); }, function(){ showToast('复制失败，请手动选择'); });
+          }else{
+            showToast('当前环境暂不支持自动复制');
+          }
+        });
+      }
+      var wx = document.querySelector('[data-bsc-wechat]');
+      if(wx){ wx.addEventListener('click', function(){ showToast('请打开微信扫一扫分享'); }); }
+      var wb = document.querySelector('[data-bsc-weibo]');
+      if(wb){ wb.addEventListener('click', function(){ showToast('已生成微博分享文案'); }); }
+    });
+  });
+
+  /* comment modal */
+  document.querySelectorAll('[data-bsc-comment]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-bsc-comment') || '这篇内容';
+      openModal('写评论', '关于《' + name + '》',
+        '<textarea rows="3" placeholder="说说你的看法，友善交流，尊重原创" aria-label="评论内容"></textarea>',
+        '发布评论',
+        function(){ showToast('评论已发布，谢谢你参与社区'); }
+      );
+    });
+  });
+
+  /* author modal */
+  document.querySelectorAll('[data-bsc-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var parts = btn.getAttribute('data-bsc-author').split('|');
+      openModal(parts[0], '擅长领域：' + parts[1],
+        '<div class="bsc-author-modal-avatar" style="background:linear-gradient(140deg,#6c4bd6,#ff7ab6)">' + parts[0].charAt(0) + '</div>' +
+        '<p style="font-size:14px;color:#3d3160;margin-bottom:10px">' + parts[4] + '</p>' +
+        '<p style="font-size:13.5px;color:#6f6690">作品数 ' + parts[2] + ' · 粉丝 ' + parts[3] + '。长期在白丝二次元发布原创内容，欢迎前往作者主页查看全部作品。</p>',
+        '认识一下',
+        function(){ showToast('已关注 ' + parts[0]); }
+      );
+    });
+  });
+
+  /* back to top */
+  var topBtn = document.getElementById('bsc-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('show'); }else{ topBtn.classList.remove('show'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+
+  /* card hover handled by CSS */
+})();
+</script>
+</body>
+        </html>
